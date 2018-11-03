@@ -1,0 +1,66 @@
+$menu:56px;
+$padding_bottom_menu:20px;
+$footer:208px;
+$corpo:100%;
+
+.fync-bg-header-init{
+    background: transparent;
+}
+
+.fync-bg-header{
+    background: $fync_heder_footer;
+}
+
+.fync-bg-footer{
+	background: $fync_heder_footer;
+}
+
+.jumbotrom-inicio-background{
+	position: relative;
+	top:0px;
+	left: 0px;
+	background-image:  linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	  ), url("../img/Tela_Inicial_Apresentação.jpg");
+	width: 100%;
+	height: 757px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.fync-center-jumbo{
+	position: absolute;
+	top:33%;
+/*	left:45%;
+	width: 50% !important;*/
+	width: 100%;
+	right: 0px;
+}
+
+.fync-center-jumbo > span{
+	width: 100%;
+	word-wrap: break-word;
+}
+
+.fync-h1-ident{
+	text-indent: 1.5em;
+}
+
+.fync-header-h{
+	max-height:$menu;
+	/*padding-bottom: $padding_bottom_menu;*/
+}
+
+.fync-content-container-h{
+	height:100vh;
+}
+
+.fync-content-h{
+	min-height:cal(#{$corpo} - #{$footer});
+}
+
+.fync-footer-h{
+	max-height:$footer;
+}
